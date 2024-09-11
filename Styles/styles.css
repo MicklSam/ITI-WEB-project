@@ -60,7 +60,7 @@ nav {
 .search-cart input {
     padding: 10px;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 40px;
 }
 
 /* Main Cart Section */
@@ -193,4 +193,83 @@ footer {
 
 .footer-links li {
     margin-bottom: 10px;
+}
+
+
+/* For the home image */
+.image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.text-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0 0 20px;
+    color: #000;
+}
+
+.text-content p {
+    font-size: 18px;
+    margin: 0 0 30px;
+    max-width: 400px;
+    color: #000;
+}
+
+.shop-now {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.shop-now:hover {
+    background-color: #333;
+}
+
+.stats {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-item h3 {
+    font-size: 24px;
+    margin: 0;
+    color: #000;
+}
+
+.stat-item p {
+    margin: 5px 0 0;
+    color: #000;
 }
