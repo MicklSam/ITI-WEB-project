@@ -1,0 +1,186 @@
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .product-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .product-card {
+    text-align: center;
+    width: 200px;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    width: 50%;
+    color: rgb(72, 68, 68);
+    margin-left: 10px;
+  }
+  
+  .dress-style {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .styles {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .customer-reviews {
+    margin-top: 40px;
+  }
+  
+  .reviews {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .review-card {
+    text-align: center;
+  }
+  
+  .rating {
+    color: gold;
+  }
+  
+  .home-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .dress-style {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .dress-style h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .styles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .dress-style-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .dress-style-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .dress-style-card:hover .dress-style-image {
+    transform: scale(1.1);
+  }
+  
+  /* Overlay styles */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+  }
+  
+  .dress-style-card:hover .overlay {
+    opacity: 1;
+  }
+  
+  .style-name {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  /* Container for Browse by Dress Style */
+.dress-style-section {
+    background-color: #f0f0f0; /* Light grey background */
+    border-radius: 50px;
+    width:70%;
+    margin-left: 15%;
+    padding: 40px 0; /* Space around the entire section */
+  }
+  
+  /* Container for the inner content */
+  .container {
+    max-width: 1200px; /* Max width for the inner content */
+    margin: 0 auto; /* Center the content */
+    padding: 0 20px; /* Add horizontal padding for smaller screens */
+  }
+  
+  /* Text styling */
+  .dress-style-section h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  /* Styles for the grid, reusing the previous styles */
+  .styles-grid {
+    display:flex;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .dress-style-card {
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .dress-style-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .dress-style-card:hover .dress-style-image {
+    transform: scale(1.1);
+  }
+  
+  /* Overlay */
+  
+  .dress-style-card:hover .overlay {
+    opacity: 1;
+  }
+  
+  .style-name {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  

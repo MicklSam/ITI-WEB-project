@@ -1,0 +1,52 @@
+.newsletter-section {
+    background-color: black;
+    padding: 40px 20px;
+    color: white;
+    position: relative; /* Make this element positioned relative for overlap */
+    margin-bottom: -50px; /* Negative margin to overlap the footer */
+    z-index: 1; /* Ensure it's on top of the footer */
+    border-radius: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .newsletter-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .newsletter-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .newsletter-input {
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  .newsletter-button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .newsletter-button:hover {
+    background-color: #e0e0e0;
+  }
+  

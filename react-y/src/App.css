@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.top-banner {
+  background-color: black; /* or any other color based on the background in your image */
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly; /* Evenly space logos */
+  align-items: center; /* Vertically center logos */
+}
+
+.top-banner a {
+  flex: 1; /* This makes all logos equally spaced */
+  text-align: center; /* Center the logo within each link */
+  max-width: 150px; /* You can adjust the max width of the logo */
+}
+
+.top-banner img {
+  max-width: 100%; /* Ensure the image fits within the anchor */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 768px) {
+  .top-banner {
+    flex-direction: column;
+  }
+
+  .top-banner a {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,11 @@
+.top-banner {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.top-banner a {
+    color: #f39c12;
+    font-weight: bold;
+}
