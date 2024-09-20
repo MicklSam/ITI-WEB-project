@@ -3,9 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="/Styles/styles.css">
 </head>
 <body>
-    
+    <!-- Header -->
+    <header>
+        <div class="top-banner">
+            <p>Sign up and get 20% off your first order. <a href="#">Sign Up Now</a></p>
+        </div>
+        <nav>
+            <div class="logo">SHOP.CO</div>
+            <ul class="menu">
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">On Sale</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Brands</a></li>
+            </ul>
+            <div class="search-cart">
+                <input type="text" placeholder="Search for products...">
+                <img src="cart-icon.png" alt="Cart Icon">
+                <img src="profile-icon.png" alt="Profile Icon">
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Cart Section -->
+    <main>
+        <div class="cart-container">
+            <!-- Cart Items -->
+            <section class="cart-items">
+                <h2>Your Cart</h2>
+                <div class="cart-item">
+                    <img src="tshirt.png" alt="Gradient Graphic T-shirt">
+                    <div class="item-details">
+                        <h3>Gradient Graphic T-shirt</h3>
+                        <p>Size: Large</p>
+                        <p>Color: White</p>
+                    </div>
+                    <div class="item-price">$145</div>
+                    <div class="item-quantity">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                    <button class="remove-item">Remove</button>
+                </div>
+                <div class="cart-item">
+                    <img src="shirt.png" alt="Checkered Shirt">
+                    <div class="item-details">
+                        <h3>Checkered Shirt</h3>
+                        <p>Size: Medium</p>
+                        <p>Color: Red</p>
+                    </div>
+                    <div class="item-price">$180</div>
+                    <div class="item-quantity">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                    <button class="remove-item">Remove</button>
+                </div>
+                <div class="cart-item">
+                    <img src="jeans.png" alt="Skinny Fit Jeans">
+                    <div class="item-details">
+                        <h3>Skinny Fit Jeans</h3>
+                        <p>Size: Large</p>
+                        <p>Color: Blue</p>
+                    </div>
+                    <div class="item-price">$240</div>
+                    <div class="item-quantity">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                    <button class="remove-item">Remove</button>
+                </div>
+            </section>
+
+            <!-- Order Summary -->
+            <aside class="order-summary">
+                <h2>Order Summary</h2>
+                <div class="summary-item">
+                    <span>Subtotal</span>
+                    <span>$565</span>
+                </div>
+                <div class="summary-item">
+                    <span>Discount (20%)</span>
+                    <span>-$113</span>
+                </div>
+                <div class="summary-item">
+                    <span>Delivery Fee</span>
+                    <span>$15</span>
+                </div>
+                <div class="summary-total">
+                    <span>Total</span>
+                    <span>$467</span>
+                </div>
+                <div class="promo-code">
+                    <input type="text" placeholder="Add promo code">
+                    <button>Apply</button>
+                </div>
+                <button class="checkout-btn">Go to Checkout</button>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <section class="newsletter">
+            <h3>Stay Up to Date About Our Latest Offers</h3>
+            <div class="subscribe">
+                <input type="email" placeholder="Enter your email address">
+                <button>Subscribe to Newsletter</button>
+            </div>
+        </section>
+        <section class="footer-links">
+            <div class="company-info">
+                <h4>SHOP.CO</h4>
+                <p>We have clothes that suit your style and which you’re proud to wear.</p>
+            </div>
+            <div class="company-links">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Works</a></li>
+                    <li><a href="#">Career</a></li>
+                </ul>
+            </div>
+            <div class="help-links">
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="#">Customer Support</a></li>
+                    <li><a href="#">Delivery Details</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="faq-links">
+                <h4>FAQ</h4>
+                <ul>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Orders</a></li>
+                    <li><a href="#">Payments</a></li>
+                </ul>
+            </div>
+            <div class="resources-links">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Free eBooks</a></li>
+                    <li><a href="#">Development Tutorials</a></li>
+                    <li><a href="#">How to Blog</a></li>
+                    <li><a href="#">YouTube Playlist</a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
